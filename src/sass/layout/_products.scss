@@ -493,8 +493,12 @@
     }
   }
 }
-.products-box:hover .products-block,
-.products-box:focus .products-block {
+// .products-box:hover .products-block,
+// .products-box:focus .products-block {
+//   transform: rotateY(-180deg);
+//   transition: transform 500ms linear;
+// }
+.products-block.is-active {
   transform: rotateY(-180deg);
   transition: transform 500ms linear;
 }
