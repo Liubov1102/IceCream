@@ -1,4 +1,4 @@
-
+(() => {
 const cardBox = document.querySelector('.products');
 
 cardBox.addEventListener('click', onProductBtnFrontClick);
@@ -35,6 +35,6 @@ function removeActiveCard() {
     currentActiveCard.classList.remove('is-active');
   }
 };
-
+})();
 
 

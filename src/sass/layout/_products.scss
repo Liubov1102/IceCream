@@ -133,6 +133,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0 40px 41px 40px;
+
   @media screen and (min-width: 768px) {
     padding: 0 11px 40px 11px;
   }
@@ -331,6 +332,10 @@
   margin-bottom: 0;
   margin-top: 30px;
 }
+.products__button:hover,
+.products__button:focus {
+  box-shadow: 0px 10px 20px rgba(78, 20, 34, 0.5), inset 0 0 40px rgba(0, 0, 0, 0.1);
+}
 
 .products-block {
   position: relative;
@@ -344,6 +349,8 @@
   position: absolute;
   top: 0;
   left: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), -23px 0 16px -23px rgba(212, 20, 67, 0.3),
+    23px 0 16px -23px rgba(212, 20, 67, 0.3), inset 0 0 40px rgba(0, 0, 0, 0.1);
 }
 .products-front {
   z-index: 10;
